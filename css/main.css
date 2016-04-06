@@ -1,0 +1,69 @@
+@import "bootstrap.min.css";
+/* font-family: myriadpro-semibold; */
+@import "sprites.css";
+body {
+  font-family: Arial, sans-serif;
+}
+.c-title {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+.o-inline-blocks {
+  display: flex;
+  justify-content: space-around;
+}
+.o-inline-blocks__item {
+  flex: 1;
+}
+.c-btn {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'myriadpro-semibold';
+  font-size: 22px;
+  padding: 8.5px 10px;
+  text-align: center;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  border-radius: 2px;
+}
+.c-btn--red {
+  background-color: #b60808;
+}
+.c-btn--blue {
+  background-color: #126bc5;
+}
+.c-form-text {
+  display: block;
+  text-decoration: none;
+  color: #626262;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 14px;
+  padding: 14px 10px;
+  text-align: center;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  border-radius: 2px;
+}
+.c-logo {
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.s-main-wrapper {
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+.s-lp-content {
+  padding: 66px 0 75px;
+}
+.s-lp-content__title {
+  text-align: center;
+}
+.s-first__title {
+  margin-bottom: 14px;
+}

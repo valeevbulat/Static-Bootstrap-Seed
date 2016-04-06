@@ -1,0 +1,14 @@
+.s-main-wrapper {
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+.s-lp-content {
+  padding: 66px 0 75px;
+}
+.s-lp-content__title {
+  text-align: center;
+}
+.s-first__title {
+  margin-bottom: 14px;
+}
