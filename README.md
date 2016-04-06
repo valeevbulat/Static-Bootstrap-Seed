@@ -15,3 +15,7 @@ Bootstrap 3, jQuery, Less
 - images
   - media
   - icons
+- fonts 
+  - (glyphicon-fonts)
+
+index.html
