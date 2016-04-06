@@ -1,0 +1,69 @@
+@import "vars";
+@import "sprites.css";
+
+// TITLE
+
+.c-title{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+
+// FLUID BLOCKS
+.o-inline-blocks{
+  display: flex;
+  justify-content: space-around;
+
+  &__item{
+    flex: 1;
+  }
+}
+
+// BTN, FORM FIELD
+
+.c-btn{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'myriadpro-semibold';
+  font-size: 22px;
+  padding: 8.5px 10px;
+  text-align: center;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  border-radius: 2px;
+
+  &--red{
+    background-color: @red;
+  }
+
+  &--blue{
+    background-color: @blue;
+  }
+}
+
+.c-form-text{
+  display: block;
+  text-decoration: none;
+  color: @gray-4;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 14px;
+  padding: 14px 10px;
+  text-align: center;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  border-radius: 2px;
+}
+
+// LISTS
+
+// logo
+.c-logo{
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+}
