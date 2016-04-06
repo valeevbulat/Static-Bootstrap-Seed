@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0 auto;
   position: relative;
+<<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
   z-index: 2000;
 }
 .s-main-wrapper--overflow-y {
@@ -45,6 +46,8 @@
 }
 .s-nav-top__text {
   color: #efeff4;
+=======
+>>>>>>> version 0.1
 }
 .s-lp-content {
   padding: 66px 0 75px;
@@ -52,6 +55,7 @@
 .s-lp-content__title {
   text-align: center;
 }
+<<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
 .s-full-size {
   position: relative;
   height: 100%;
@@ -229,3 +233,8 @@
 .labs-section svg {
   fill: #fff;
 }
+=======
+.s-first__title {
+  margin-bottom: 14px;
+}
+>>>>>>> version 0.1

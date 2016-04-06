@@ -1,4 +1,5 @@
 @import "bootstrap.min.css";
+<<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic);
 /* font-family: "CourierNewPSMT"; */
 @import "sprites.css";
@@ -20,6 +21,12 @@
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 14px;
+=======
+/* font-family: myriadpro-semibold; */
+@import "sprites.css";
+body {
+  font-family: Arial, sans-serif;
+>>>>>>> version 0.1
 }
 .c-title {
   margin: 0;
@@ -66,16 +73,20 @@ body {
   width: 100%;
   border-radius: 2px;
 }
+<<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
 .no-overflow {
   overflow-x: hidden;
 }
 .no-scroll {
   overflow: hidden;
 }
+=======
+>>>>>>> version 0.1
 .c-logo {
   background-repeat: no-repeat;
   background-position: 0 0;
 }
+<<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
 .c-big-logo {
   background: url(../images/logo/big.png) no-repeat 0 0;
   width: 686px;
@@ -234,10 +245,13 @@ body {
   -moz-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
+=======
+>>>>>>> version 0.1
 .s-main-wrapper {
   padding: 0;
   margin: 0 auto;
   position: relative;
+<<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
   z-index: 2000;
 }
 .s-main-wrapper--overflow-y {
@@ -281,6 +295,8 @@ body {
 }
 .s-nav-top__text {
   color: #efeff4;
+=======
+>>>>>>> version 0.1
 }
 .s-lp-content {
   padding: 66px 0 75px;
@@ -288,6 +304,7 @@ body {
 .s-lp-content__title {
   text-align: center;
 }
+<<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
 .s-full-size {
   position: relative;
   height: 100%;
@@ -465,3 +482,8 @@ body {
 .labs-section svg {
   fill: #fff;
 }
+=======
+.s-first__title {
+  margin-bottom: 14px;
+}
+>>>>>>> version 0.1
