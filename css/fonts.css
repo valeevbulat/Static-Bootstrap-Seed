@@ -3,9 +3,7 @@
 @font-face {
   font-family: 'CourierNewPSMT';
   src: url('../fonts/CourierNewPSMT.eot');
-  src: local('☺'), url('../fonts/CourierNewPSMT.woff') format('woff'),
-  url('../fonts/CourierNewPSMT.ttf') format('truetype'),
-  url('../fonts/CourierNewPSMT.svg') format('svg');
+  src: local('☺'), url('../fonts/CourierNewPSMT.woff') format('woff'), url('../fonts/CourierNewPSMT.ttf') format('truetype'), url('../fonts/CourierNewPSMT.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,9 +11,7 @@
 @font-face {
   font-family: 'CourierNewPS-BoldMT';
   src: url('../fonts/CourierNewPS-BoldMT.eot');
-  src: local('☺'), url('../fonts/CourierNewPS-BoldMT.woff') format('woff'),
-  url('../fonts/CourierNewPS-BoldMT.ttf') format('truetype'),
-  url('../fonts/CourierNewPS-BoldMT.svg') format('svg');
+  src: local('☺'), url('../fonts/CourierNewPS-BoldMT.woff') format('woff'), url('../fonts/CourierNewPS-BoldMT.ttf') format('truetype'), url('../fonts/CourierNewPS-BoldMT.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }

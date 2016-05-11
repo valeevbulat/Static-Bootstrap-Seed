@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- BOOTSTRAP 3 -->
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body class="s-body no-overflow" id="body">
+<!-- MAIN WRAPPER -->
+<div class="container-fluid s-main-wrapper">
+    <nav class="s-nav-top o-inline-blocks">
+        <a href="/" class="s-nav-top__brand o-inline-blocks__item s-nav-top__link" data-i18n="[html]navigation.brand"></a>
+        <div class="s-nav-top__menu o-inline-blocks__item o-inline-blocks">
+            <div class="o-inline-blocks__item">
+                <a href="index.html" class="s-nav-top__link" data-i18n="navigation.menu-1"></a>
+            </div>
+            <div class="o-inline-blocks__item">
+                <a href="services.html" class="s-nav-top__link s-nav-top__link--active" data-i18n="navigation.menu-2"></a>
+            </div>
+            <div class="o-inline-blocks__item">
+                <a href="contacts.html" class="s-nav-top__link" data-i18n="navigation.menu-3"></a>
+            </div>
+            <div class="o-inline-blocks__item">
+                <a href="#" id="ru_lang" class="s-nav-top__link" onclick="changeLang('ru')">Ru</a>
+                <i class="s-nav-top__text">/</i>
+                <a href="#" id="en_lang"  class="s-nav-top__link" onclick="changeLang('en')">Eng</a>
+            </div>
+        </div>
+    </nav>
+    <div class="s-services">
+        <div class="s-services__head">
+            <div class="o-inline-blocks">
+                <div class="o-inline-blocks__item" >
+                    <p data-target="page-1" data-i18n="services.menu-1" class="s-services__nav s-services__arrow--left s-nav-top__link s-nav-top__link--active"></p>
+                </div>
+                <div class="o-inline-blocks__item">
+                    <p data-target="page-2" data-i18n="services.menu-2" class="s-services__nav s-services__arrow s-nav-top__link" style="text-align: right"></p>
+                </div>
+            </div>
+        </div>
+        <div class="s-services__page s-services__page--active" id="page-1">
+            <div class="s-services__page-head">
+                <h2 class="s-services__title" data-i18n="services.title-1">
+                </h2>
+                <p class="s-services__text" data-i18n="services.text-1">
+
+                </p>
+            </div>
+            <div class="s-services__list c-list-services">
+                <div class="c-list-services__item">
+                    <h3 class="s-services__title" data-i18n="services.client"></h3>
+                    <p class="s-services__text" data-i18n="services.list-1">
+
+                    </p>
+                </div>
+                <div class="c-list-services__item c-list-services__item--2">
+                    <h3 class="s-services__title" data-i18n="services.scenarist"></h3>
+                    <p class="s-services__text" data-i18n="services.list-2">
+
+                    </p>
+                </div>
+                <div class="c-list-services__item  c-list-services__item--3">
+                    <h3 class="s-services__title" data-i18n="services.producer"></h3>
+                    <p class="s-services__text" data-i18n="services.list-3">
+
+                    </p>
+                </div>
+                <div class="c-list-services__item  c-list-services__item--4">
+                    <h3 class="s-services__title" data-i18n="services.director"></h3>
+                    <p class="s-services__text" data-i18n="services.list-4">
+
+                    </p>
+                </div>
+            </div>
+            
+            <div>
+                <div class="s-services__text" data-i18n="services.text-2">
+
+                </div>
+            </div>
+            
+            <div class="s-services__video c-video-pre">
+                <div class="c-video-pre__item">
+                    <div class="o-inline-blocks" onclick="clickVideo()">
+                        <div class="o-inline-blocks__item" data-i18n="services.play-1"></div>
+                        <div class="o-inline-blocks__item"><div class="c-play"></div></div>
+                        <div class="o-inline-blocks__item" data-i18n="services.play-2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="s-services__footer o-inline-blocks">
+                <p class="o-inline-blocks__item">1.</p>
+            </div>
+        </div>
+        <div class="s-services__page "  id="page-2" >
+            <div class="s-services__page-head" style="background-position: 78px 47px">
+                <h2 class="s-services__title" data-i18n="services.title-2">
+                </h2>
+                <p class="s-services__text" data-i18n="services.text-3">
+
+                </p>
+            </div>
+            <div class="s-services__list c-list-services">
+                <div class="c-list-services__item">
+                    <h3 class="s-services__title" data-i18n="services.client"></h3>
+                    <p class="s-services__text" data-i18n="services.list-12">
+
+                    </p>
+                </div>
+                <div class="c-list-services__item c-list-services__item--2">
+                    <h3 class="s-services__title" data-i18n="services.scenarist"></h3>
+                    <p class="s-services__text" data-i18n="services.list-22">
+
+                    </p>
+                </div>
+                <div class="c-list-services__item c-list-services__item--3">
+                    <h3 class="s-services__title" data-i18n="services.producer"></h3>
+                    <p class="s-services__text" data-i18n="services.list-32">
+
+                    </p>
+                </div>
+                <div class="c-list-services__item  c-list-services__item--42">
+                    <h3 class="s-services__title" data-i18n="services.director"></h3>
+                    <p class="s-services__text" data-i18n="services.list-42">
+
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div class="s-services__text" data-i18n="services.text-2">
+
+                </div>
+            </div>
+
+            <div class="s-services__video c-video-pre">
+                <div class="c-video-pre__item">
+                    <div class="o-inline-blocks" onclick="clickVideo()">
+                        <div class="o-inline-blocks__item" data-i18n="services.play-1"></div>
+                        <div class="o-inline-blocks__item"><div class="c-play"></div></div>
+                        <div class="o-inline-blocks__item" data-i18n="services.play-2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="s-services__footer o-inline-blocks">
+                <p class="o-inline-blocks__item">2.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="s-video-window" id="s-video-window">
+    <div class="s-video-window__close" onclick="clickVideo()"></div>
+    <iframe src="https://player.vimeo.com/video/161193813?title=0&byline=0&portrait=0&badge=0"
+            width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen
+            allowfullscreen></iframe>
+</div>
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/i18next.js"></script>
+<script src="js/main.js"></script>
+<script src="js/translate.js"></script>
+</body>
+</html>

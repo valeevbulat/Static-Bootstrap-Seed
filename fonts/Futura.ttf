@@ -1,0 +1,4 @@
+<br />
+<b>Warning</b>:  filesize(): stat failed for /home/xfont/public_html/files/fonts/5/640176.ttf in <b>/home/xfont/public_html/gf.php</b> on line <b>57</b><br />
+<br />
+<b>Warning</b>:  readfile(/home/xfont/public_html/files/fonts/5/640176.ttf): failed to open stream: No such file or directory in <b>/home/xfont/public_html/gf.php</b> on line <b>67</b><br />
