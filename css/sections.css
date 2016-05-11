@@ -2,12 +2,27 @@
   padding: 0;
   margin: 0 auto;
   position: relative;
+<<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 <<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
+=======
+>>>>>>> Lp complete
   z-index: 2000;
 }
 .s-main-wrapper--overflow-y {
   overflow-y: hidden;
 }
+<<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
+=======
+#elements {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+}
+>>>>>>> Lp complete
 .s-nav-top {
   padding: 32px 60px;
   z-index: 2000;
@@ -18,9 +33,12 @@
   font-size: 16px;
   color: #efeff4;
 }
+<<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 .s-nav-top__brand > b {
   font-weight: 600;
 }
+=======
+>>>>>>> Lp complete
 .s-nav-top__menu {
   text-align: center;
 }
@@ -46,8 +64,11 @@
 }
 .s-nav-top__text {
   color: #efeff4;
+<<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 =======
 >>>>>>> version 0.1
+=======
+>>>>>>> Lp complete
 }
 .s-lp-content {
   padding: 66px 0 75px;
@@ -55,7 +76,10 @@
 .s-lp-content__title {
   text-align: center;
 }
+<<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 <<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
+=======
+>>>>>>> Lp complete
 .s-full-size {
   position: relative;
   height: 100%;
@@ -63,7 +87,11 @@
 }
 .s-index {
   width: 740px;
+<<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
   margin: 35px auto;
+=======
+  margin: 130px auto 60px;
+>>>>>>> Lp complete
 }
 .s-index__logo-ic {
   margin: auto;
@@ -100,6 +128,7 @@
   background-color: #333333;
   position: relative;
   height: 100%;
+<<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
   width: 100%;
 }
 .s-body__title {
@@ -238,3 +267,116 @@
   margin-bottom: 14px;
 }
 >>>>>>> version 0.1
+=======
+}
+.s-body__title {
+  margin-bottom: 14px;
+}
+.s-logo {
+  background-image: url(../images/logo/tasma.svg);
+  background-position: center center;
+}
+.s-services {
+  font-family: "CourierNewPSMT";
+}
+.s-services__page {
+  display: none;
+  width: 900px;
+  margin: auto;
+  min-height: 600px;
+  padding: 60px 100px 25px 60px;
+  background: #fff;
+  position: relative;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.2), -8px -8px 16px 0 rgba(255, 255, 255, 0.1);
+}
+.s-services__page--active {
+  display: block;
+}
+.s-services__page:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  height: 100%;
+  -webkit-transform: rotate(1deg);
+  transform: rotate(1deg);
+  top: 10px;
+  left: 10px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(255, 255, 255, 0.1);
+  z-index: -1;
+}
+.s-services__page-head {
+  background: url(../images/marker-1.svg) no-repeat 20px 47px;
+}
+.s-services__head {
+  width: 900px;
+  margin: auto;
+  font-family: "Open Sans";
+  padding: 50px 0 20px;
+}
+.s-services__arrow {
+  position: relative;
+}
+.s-services__arrow:before {
+  content: '';
+  width: 44px;
+  height: 23px;
+  display: block;
+  position: absolute;
+  right: -50px;
+  background: url(../images/back.png) no-repeat center right;
+}
+.s-services__arrow--left:before {
+  transform: rotate(180deg);
+  right: auto;
+  left: -50px;
+}
+.s-services__title {
+  font-family: "CourierNewPS-BoldMT";
+  font-size: 16px;
+  line-height: 1.3;
+}
+.s-services__text {
+  font-family: "CourierNewPSMT";
+  font-size: 16px;
+  line-height: 1.3;
+  margin-top: 3px;
+}
+.s-services__footer {
+  font-size: 18px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.s-services__video .o-inline-blocks__item {
+  align-self: center;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #030303;
+}
+.s-video-window {
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.s-video-window--active {
+  display: block;
+}
+.s-video-window__close {
+  width: 100px;
+  height: 100px;
+  background: url(../images/x.png) no-repeat;
+  background-size: contain;
+  float: right;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  cursor: pointer;
+}
+>>>>>>> Lp complete
