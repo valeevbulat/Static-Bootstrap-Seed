@@ -2,58 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c112299b-fe35-4b4e-b5f3-16d8f98f9fc6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/CourierNewPS-BoldMT.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/CourierNewPS-BoldMT.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/CourierNewPS-BoldMT.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/CourierNewPSMT.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/CourierNewPSMT.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/CourierNewPSMT.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/F4F35D89-D324-487E-A309-5420186A1734.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/back@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/back@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg/mac.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/logo/big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/logo/big.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/logo/trash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contacts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/CourierNewPS-BoldMT.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/CourierNewPSMT.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Futura.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/onlinefontconverter.com/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg/bg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/elements/rectangle.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/elements/triangle.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/elements/triangle_2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/logo/tasma.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/marker-1.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/marker-2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/marker-3.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/n-1.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/n-2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/n-3.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/n-4.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/primer.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/elemJs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/i18next.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/translate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locales/en/translation.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locales/ru/translation.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/components.css" afterPath="$PROJECT_DIR$/css/components.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/components.less" afterPath="$PROJECT_DIR$/css/components.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts.css" afterPath="$PROJECT_DIR$/css/fonts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts.less" afterPath="$PROJECT_DIR$/css/fonts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sections.css" afterPath="$PROJECT_DIR$/css/sections.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sections.less" afterPath="$PROJECT_DIR$/css/sections.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tags.css" afterPath="$PROJECT_DIR$/css/tags.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tags.less" afterPath="$PROJECT_DIR$/css/tags.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/vars.less" afterPath="$PROJECT_DIR$/css/vars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tasma_lp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,11 +23,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-568">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="180">
+              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="translation.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locales/ru/translation.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="47" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="translate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/translate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -99,7 +89,7 @@
             <state relative-caret-position="3753">
               <caret line="254" column="3" selection-start-line="254" selection-start-column="3" selection-end-line="254" selection-end-column="3" />
               <folding>
-                <marker date="1463132541201" expanded="true" signature="41:97" placeholder="{...}" />
+                <marker date="1463132617833" expanded="true" signature="41:97" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -113,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/css/tags.less" />
         <option value="$PROJECT_DIR$/css/vars.less" />
         <option value="$PROJECT_DIR$/js/translate.js" />
@@ -128,6 +117,7 @@
         <option value="$PROJECT_DIR$/css/sections.less" />
         <option value="$PROJECT_DIR$/css/components.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -185,6 +175,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tasma_lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasma_lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasma_lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="locales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasma_lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasma_lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="locales" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,12 +342,12 @@
       <workItem from="1462917522831" duration="6502000" />
       <workItem from="1462942768669" duration="21653000" />
       <workItem from="1463087326135" duration="49000" />
-      <workItem from="1463132369675" duration="237000" />
+      <workItem from="1463132369675" duration="1827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30318000" />
+    <option name="totallyTimeSpent" value="31908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="30" width="1368" height="739" extended-state="6" />
@@ -388,7 +410,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1463132541201" expanded="true" signature="41:97" placeholder="{...}" />
+            <marker date="1463132617833" expanded="true" signature="41:97" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -440,7 +462,7 @@
         <state relative-caret-position="1224">
           <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
           <folding>
-            <marker date="1463132541201" expanded="true" signature="41:97" placeholder="{...}" />
+            <marker date="1463132617833" expanded="true" signature="41:97" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -494,7 +516,7 @@
         <state relative-caret-position="774">
           <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
           <folding>
-            <marker date="1463132541201" expanded="true" signature="41:97" placeholder="{...}" />
+            <marker date="1463132617833" expanded="true" signature="41:97" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -548,7 +570,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1463132541201" expanded="true" signature="41:97" placeholder="{...}" />
+            <marker date="1463132617833" expanded="true" signature="41:97" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -589,14 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="4" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/tags.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -609,13 +623,6 @@
         <state relative-caret-position="252">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/translate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -633,24 +640,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locales/ru/translation.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="47" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/locales/en/translation.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -674,7 +667,7 @@
         <state relative-caret-position="3753">
           <caret line="254" column="3" selection-start-line="254" selection-start-column="3" selection-end-line="254" selection-end-column="3" />
           <folding>
-            <marker date="1463132541201" expanded="true" signature="41:97" placeholder="{...}" />
+            <marker date="1463132617833" expanded="true" signature="41:97" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -698,10 +691,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/i18next.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locales/ru/translation.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="47" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/translate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-568">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="180">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding />
         </state>
       </provider>
