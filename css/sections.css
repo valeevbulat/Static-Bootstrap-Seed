@@ -2,17 +2,23 @@
   padding: 0;
   margin: 0 auto;
   position: relative;
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 <<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
 =======
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
   z-index: 2000;
 }
 .s-main-wrapper--overflow-y {
   overflow-y: hidden;
 }
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 =======
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 #elements {
   width: 100%;
   height: 100%;
@@ -22,7 +28,10 @@
   left: 0;
   z-index: 1001;
 }
+<<<<<<< HEAD
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 .s-nav-top {
   padding: 32px 60px;
   z-index: 2000;
@@ -33,12 +42,15 @@
   font-size: 16px;
   color: #efeff4;
 }
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 .s-nav-top__brand > b {
   font-weight: 600;
 }
 =======
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 .s-nav-top__menu {
   text-align: center;
 }
@@ -64,11 +76,14 @@
 }
 .s-nav-top__text {
   color: #efeff4;
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 =======
 >>>>>>> version 0.1
 =======
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 }
 .s-lp-content {
   padding: 66px 0 75px;
@@ -76,10 +91,13 @@
 .s-lp-content__title {
   text-align: center;
 }
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 <<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
 =======
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 .s-full-size {
   position: relative;
   height: 100%;
@@ -87,11 +105,15 @@
 }
 .s-index {
   width: 740px;
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
   margin: 35px auto;
 =======
   margin: 130px auto 60px;
 >>>>>>> Lp complete
+=======
+  margin: 130px auto 60px;
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 }
 .s-index__logo-ic {
   margin: auto;
@@ -129,6 +151,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
   width: 100%;
 }
@@ -269,6 +292,8 @@
 }
 >>>>>>> version 0.1
 =======
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 }
 .s-body__title {
   margin-bottom: 14px;
@@ -380,4 +405,7 @@
   position: absolute;
   cursor: pointer;
 }
+<<<<<<< HEAD
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f

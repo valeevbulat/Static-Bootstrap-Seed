@@ -1,6 +1,9 @@
 @import "bootstrap.min.css";
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 <<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic);
 /* font-family: "CourierNewPSMT"; */
 @import "sprites.css";
@@ -22,6 +25,7 @@
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 14px;
+<<<<<<< HEAD
 =======
 /* font-family: myriadpro-semibold; */
 =======
@@ -52,6 +56,8 @@ body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 14px;
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 }
 .c-title {
   margin: 0;
@@ -98,25 +104,32 @@ body {
   width: 100%;
   border-radius: 2px;
 }
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 <<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
 =======
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 .no-overflow {
   overflow-x: hidden;
 }
 .no-scroll {
   overflow: hidden;
 }
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 =======
 >>>>>>> version 0.1
 =======
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 .c-logo {
   background-repeat: no-repeat;
   background-position: 0 0;
 }
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 <<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
 .c-big-logo {
@@ -124,19 +137,28 @@ body {
   width: 686px;
   height: 275px;
 =======
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 .c-big-logo {
   background: url(../images/logo/big.png) no-repeat 25px 13px, url(../images/logo/trash.png) no-repeat;
   width: 686px;
   height: 189px;
+<<<<<<< HEAD
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
   z-index: 3000;
   position: relative;
 }
 .c-element {
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 =======
   transition: 2s ease-out;
 >>>>>>> Lp complete
+=======
+  transition: 2s ease-out;
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
   background: #fff;
   width: 30px;
   height: 30px;
@@ -144,10 +166,14 @@ body {
   pointer-events: none;
   will-change: transform;
   margin: -15px;
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 =======
   z-index: 1000;
 >>>>>>> Lp complete
+=======
+  z-index: 1000;
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 }
 .c-element--triangle {
   background: url(../images/elements/triangle.svg);
@@ -190,11 +216,15 @@ body {
   height: 58px;
   display: block;
   position: absolute;
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
   right: -10px;
 =======
   right: 0px;
 >>>>>>> Lp complete
+=======
+  right: 0px;
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
   left: auto;
   top: 20px;
   background: url(../images/n-2.svg) no-repeat top left;
@@ -259,6 +289,7 @@ body {
   margin: 0 35px;
   cursor: pointer;
 }
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 .s-services__arrow {
   padding: 0 30px;
@@ -300,21 +331,29 @@ body {
 >>>>>>> version 0.1
 =======
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 .s-main-wrapper {
   padding: 0;
   margin: 0 auto;
   position: relative;
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 <<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
 =======
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
   z-index: 2000;
 }
 .s-main-wrapper--overflow-y {
   overflow-y: hidden;
 }
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 =======
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 #elements {
   width: 100%;
   height: 100%;
@@ -324,7 +363,10 @@ body {
   left: 0;
   z-index: 1001;
 }
+<<<<<<< HEAD
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 .s-nav-top {
   padding: 32px 60px;
   z-index: 2000;
@@ -335,12 +377,15 @@ body {
   font-size: 16px;
   color: #efeff4;
 }
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 .s-nav-top__brand > b {
   font-weight: 600;
 }
 =======
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 .s-nav-top__menu {
   text-align: center;
 }
@@ -366,11 +411,14 @@ body {
 }
 .s-nav-top__text {
   color: #efeff4;
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 =======
 >>>>>>> version 0.1
 =======
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 }
 .s-lp-content {
   padding: 66px 0 75px;
@@ -378,10 +426,13 @@ body {
 .s-lp-content__title {
   text-align: center;
 }
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 <<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
 =======
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 .s-full-size {
   position: relative;
   height: 100%;
@@ -389,11 +440,15 @@ body {
 }
 .s-index {
   width: 740px;
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
   margin: 35px auto;
 =======
   margin: 130px auto 60px;
 >>>>>>> Lp complete
+=======
+  margin: 130px auto 60px;
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 }
 .s-index__logo-ic {
   margin: auto;
@@ -431,6 +486,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
   width: 100%;
 }
@@ -571,6 +627,8 @@ body {
 }
 >>>>>>> version 0.1
 =======
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 }
 .s-body__title {
   margin-bottom: 14px;
@@ -682,4 +740,7 @@ body {
   position: absolute;
   cursor: pointer;
 }
+<<<<<<< HEAD
 >>>>>>> Lp complete
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f

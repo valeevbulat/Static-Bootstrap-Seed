@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
 ! function(e) {
     function t(l) {
@@ -723,6 +724,8 @@
     t.validate = n
 }]);
 =======
+=======
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 var ball = [];
 var figure = ['rectangle', 'triangle', 'triangle-2'];
 
@@ -770,5 +773,9 @@ body.onmouseover = function(e) { // 1. отследить наведение
     //     document.onmousemove = null;
     //     ball.onmouseup = null;
     // }
+<<<<<<< HEAD
 };
 >>>>>>> Lp complete
+=======
+};
+>>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
