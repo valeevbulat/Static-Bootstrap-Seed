@@ -13,15 +13,15 @@
   }
 }
 
-#elements{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  z-index: 1001;
-}
+//#elements{
+//  width: 100%;
+//  height: 100%;
+//  position: absolute;
+//  overflow: hidden;
+//  top: 0;
+//  left: 0;
+//  z-index: 1001;
+//}
 
   // HEADER
   .s-head{
@@ -36,6 +36,10 @@
       letter-spacing: 3px;
       font-size: 16px;
       color: #efeff4;
+
+      > b{
+        font-weight: 600;
+      }
     }
 
     &__menu{
@@ -87,7 +91,7 @@
 
     .s-index{
       width: 740px;
-      margin: 130px auto 60px;
+      margin: 35px auto;
 
       &__logo-ic{
         margin: auto;
@@ -131,6 +135,7 @@
       background-color: @bg-color;
       position: relative;
       height: 100%;
+      width: 100%;
       &__title{
         margin-bottom: 14px;
       }
@@ -150,7 +155,7 @@
         margin: auto;
         min-height: 600px;
         padding: 60px 100px 25px 60px;
-        background: #fff;
+        background: #fefefe;
         position: relative;
         box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.2), -8px -8px 16px 0 rgba(255, 255, 255, 0.1);
 
@@ -211,6 +216,7 @@
         font-family: "CourierNewPS-BoldMT";
         font-size: 16px;
         line-height: 1.3;
+        text-transform: uppercase;
       }
 
       &__text{
@@ -227,6 +233,7 @@
       }
 
       &__video{
+        background: url(../images/primer.svg) no-repeat 410px 15px;
         .o-inline-blocks__item{
           align-self: center;
           font-family: 'Open Sans';
@@ -263,6 +270,25 @@
       }
     }
 
+
+.labs-section {
+  position: relative;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+.labs-section .particle {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  pointer-events: none;
+  will-change: transform;
+  margin: -15px;
+  z-index:3000;
+}
+.labs-section svg {
+  fill: #fff;
+}
     // Second
 
     // Third

@@ -13,37 +13,37 @@
 
   "contacts": {
     "tphone" : "Phone",
-    "vphone" : "+7 863 348-61-23",
+    "vphone" : "+79874126844",
     "tmail" : "Email",
-    "vmail" : "hello@tasma.ru"
+    "vmail" : "arttasma@gmail.com"
   },
 
   "services": {
-    "title-1" : "1. ЗАКАЗЧИК ЗАКАЗЫВАЕТ ЧАСТНЫЙ ВИДЕОРОЛИК ",
-    "title-2" : "2. ЗАКАЗЧИК ЗАКАЗЫВАЕТ КОРПОРАТИВНЫЙ ВИДЕОРОЛИК ",
-    "text-1" : "Заказчик приходит в медиа студию «Тасма», чтобы ему организовали съемку фильма в подарок на важное событие. ",
-    "text-2" : "Заказчик и продюсер приходят к согласию и сотрудники медиа-студии приступают к изготовлению видеоролика.",
-    "text-3" : "Заказчик обращается в медиа студию «Тасма», чтобы ему изготовили видеоконтент для презентации на международной конференции.",
+    "title-1" : "1. A client orders a private video film",
+    "title-2" : "2. A client orders a corporate video film",
+    "text-1" : "A client comes to a “Tasma” media studio to order a video shooting as a present for an important event to his friend.",
+    "text-2" : "A client together with a producer come to an agreement and Media studio workers proceed to a video making process.",
+    "text-3" : "A client comes to a “Tasma” media studio to order a video content for a presentation of his company at the international conference.",
     "text-4" : "Заказчик обращается в медиа студию «Тасма», чтобы ему изготовили видеоконтент для презентации на международной конференции.",
 
-    "client" : "ЗАКАЗЧИК",
-    "scenarist": "Сценарист",
-    "producer" : "Продюсер",
-    "director" : "Режиссер",
+    "client" : "Client",
+    "scenarist": "SCREENWRITER",
+    "producer" : "Producer",
+    "director" : "Director",
 
-    "list-1" : "Я хочу заказать фильм в честь дня рожждения своего друга. Как происходит процесс?",
-    "list-2" : "Для начала я придумываю оригинальный сценарий, согласовываю с вами все детали. Затем, вы его утверждаете.",
-    "list-3" : "Хочу заметить, что при съемки и изготовлении таких фильмов соблюдается оговоренный уровень конфиденциальности, если это необходимо.",
-    "list-4" : "Съемочный процесс максимально приближен к кинопроизводству, где вы чувствуете себя настоящими актерами кино.",
+    "list-1" : "I would like to order a video for my friend’s birthday party. How does the process go?",
+    "list-2" : "At first, I think up an individual script, discuss all the details with you. After that, you confirm the script.",
+    "list-3" : "I would like to admit that we keep the required level of confidentiality during the whole video process if needed.",
+    "list-4" : "The whole video shooting process is approximated to a real filmmaking process, where you can feel yourself as a real movie star.",
 
-    "list-12" : "Я хочу заказать изготовление видеоконтента для конференции. Как происходит процесс?",
-    "list-22" : "Я придумываю оригинальный сценарий видеоролика и  согласовываю с вами все технические приемы и детали. Затем, вы утверждаете сценарий.",
-    "list-32" : "Можете быть уверены, что видеоконтент будет изготовлен в установленные сроки и надлежащего качества.",
-    "list-42" : "На выходе вы получите качественное видеоформление вашего мероприятия, которое подчеркнет значимые поменты вашего события.",
+    "list-12" : "I would like to order a video content for a conference. How does the process go?",
+    "list-22" : "I think up with an individual script of a video film and approve all the technical details that may be used in a film. After that you approve the script itself.",
+    "list-32" : "You can be sure that the video content will be done at the time discussed and it will be proper quality.",
+    "list-42" : "At the end you will get a high quality video accompaniment of your event, that will perfectly emphasize the main moments of your event.",
 
-    "play-1" : "Посмотреть",
-    "play-2" : "Видеозапись",
-    "footer-continue": "Продолжить",
+    "play-1" : "Play",
+    "play-2" : "Video",
+    "footer-continue": "Next",
     "menu-1": "ЧАСТНАЯ СЪЕМКА",
     "menu-2": "КОРПОРАТИВНАЯ СЪЕМКА"
   }

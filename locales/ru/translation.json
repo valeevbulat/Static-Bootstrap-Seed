@@ -12,9 +12,9 @@
 
   "contacts": {
     "tphone" : "Телефон",
-    "vphone" : "+7 863 348-61-23",
+    "vphone" : "+79874126844",
     "tmail" : "Почта",
-    "vmail" : "hello@tasma.ru"
+    "vmail" : "arttasma@gmail.com"
   },
 
   "services": {
@@ -43,7 +43,7 @@
     "play-1" : "Посмотреть",
     "play-2" : "Видеозапись",
     "footer-continue": "Продолжить",
-    "menu-1": "ЧАСТНАЯ СЪЕМКА",
-    "menu-2": "КОРПОРАТИВНАЯ СЪЕМКА"
+    "menu-1": "<span data-hover=\"ЧАСТНАЯ СЪЕМКА\" >ЧАСТНАЯ СЪЕМКА</span>",
+    "menu-2": "<span data-hover=\"КОРПОРАТИВНАЯ СЪЕМКА\" >КОРПОРАТИВНАЯ СЪЕМКА</span>"
   }
 }

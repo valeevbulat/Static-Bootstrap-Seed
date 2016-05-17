@@ -77,14 +77,13 @@ body {
   background-position: 0 0;
 }
 .c-big-logo {
-  background: url(../images/logo/big.png) no-repeat 25px 13px, url(../images/logo/trash.png) no-repeat;
+  background: url(../images/logo/big.png) no-repeat 0 0;
   width: 686px;
-  height: 189px;
+  height: 275px;
   z-index: 3000;
   position: relative;
 }
 .c-element {
-  transition: 2s ease-out;
   background: #fff;
   width: 30px;
   height: 30px;
@@ -92,7 +91,6 @@ body {
   pointer-events: none;
   will-change: transform;
   margin: -15px;
-  z-index: 1000;
 }
 .c-element--triangle {
   background: url(../images/elements/triangle.svg);
@@ -135,7 +133,7 @@ body {
   height: 58px;
   display: block;
   position: absolute;
-  right: 0px;
+  right: -10px;
   left: auto;
   top: 20px;
   background: url(../images/n-2.svg) no-repeat top left;
@@ -200,6 +198,42 @@ body {
   margin: 0 35px;
   cursor: pointer;
 }
+.s-services__arrow {
+  padding: 0 30px;
+  height: 1.2em;
+  overflow: hidden;
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  text-decoration: none!important;
+  color: white;
+  font-family: arial;
+}
+.s-services__arrow:hover span {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.s-services__arrow span {
+  position: relative;
+  padding: 0 5px;
+  display: inline-block;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+}
+.s-services__arrow span:before {
+  position: absolute;
+  width: 100%;
+  color: #0878d5;
+  left: 0;
+  top: 100%;
+  content: attr(data-hover);
+  font-weight: 700;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
 .s-main-wrapper {
   padding: 0;
   margin: 0 auto;
@@ -208,15 +242,6 @@ body {
 }
 .s-main-wrapper--overflow-y {
   overflow-y: hidden;
-}
-#elements {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  z-index: 1001;
 }
 .s-nav-top {
   padding: 32px 60px;
@@ -227,6 +252,9 @@ body {
   letter-spacing: 3px;
   font-size: 16px;
   color: #efeff4;
+}
+.s-nav-top__brand > b {
+  font-weight: 600;
 }
 .s-nav-top__menu {
   text-align: center;
@@ -267,7 +295,7 @@ body {
 }
 .s-index {
   width: 740px;
-  margin: 130px auto 60px;
+  margin: 35px auto;
 }
 .s-index__logo-ic {
   margin: auto;
@@ -304,6 +332,7 @@ body {
   background-color: #333333;
   position: relative;
   height: 100%;
+  width: 100%;
 }
 .s-body__title {
   margin-bottom: 14px;
@@ -321,7 +350,7 @@ body {
   margin: auto;
   min-height: 600px;
   padding: 60px 100px 25px 60px;
-  background: #fff;
+  background: #fefefe;
   position: relative;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.2), -8px -8px 16px 0 rgba(255, 255, 255, 0.1);
 }
@@ -371,6 +400,7 @@ body {
   font-family: "CourierNewPS-BoldMT";
   font-size: 16px;
   line-height: 1.3;
+  text-transform: uppercase;
 }
 .s-services__text {
   font-family: "CourierNewPSMT";
@@ -382,6 +412,9 @@ body {
   font-size: 18px;
   line-height: 1.2;
   text-transform: uppercase;
+}
+.s-services__video {
+  background: url(../images/primer.svg) no-repeat 410px 15px;
 }
 .s-services__video .o-inline-blocks__item {
   align-self: center;
@@ -414,4 +447,21 @@ body {
   left: 10px;
   position: absolute;
   cursor: pointer;
+}
+.labs-section {
+  position: relative;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+.labs-section .particle {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  pointer-events: none;
+  will-change: transform;
+  margin: -15px;
+  z-index: 3000;
+}
+.labs-section svg {
+  fill: #fff;
 }
