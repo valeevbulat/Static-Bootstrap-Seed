@@ -1,4 +1,3 @@
-@import "sprites.css";
 .c-title {
   margin: 0;
   padding: 0;
@@ -44,61 +43,24 @@
   width: 100%;
   border-radius: 2px;
 }
-<<<<<<< HEAD
-<<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
-<<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
-=======
->>>>>>> Lp complete
-=======
->>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 .no-overflow {
   overflow-x: hidden;
 }
 .no-scroll {
   overflow: hidden;
 }
-<<<<<<< HEAD
-<<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
-=======
->>>>>>> version 0.1
-=======
->>>>>>> Lp complete
-=======
->>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 .c-logo {
   background-repeat: no-repeat;
   background-position: 0 0;
 }
-<<<<<<< HEAD
-<<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
-<<<<<<< 4b1aa3ee8abdd4f4c3659288dc492a7e034544d4
 .c-big-logo {
   background: url(../images/logo/big.png) no-repeat 0 0;
   width: 686px;
   height: 275px;
-=======
-=======
->>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
-.c-big-logo {
-  background: url(../images/logo/big.png) no-repeat 25px 13px, url(../images/logo/trash.png) no-repeat;
-  width: 686px;
-  height: 189px;
-<<<<<<< HEAD
->>>>>>> Lp complete
-=======
->>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
   z-index: 3000;
   position: relative;
 }
 .c-element {
-<<<<<<< HEAD
-<<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
-=======
-  transition: 2s ease-out;
->>>>>>> Lp complete
-=======
-  transition: 2s ease-out;
->>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
   background: #fff;
   width: 30px;
   height: 30px;
@@ -106,14 +68,6 @@
   pointer-events: none;
   will-change: transform;
   margin: -15px;
-<<<<<<< HEAD
-<<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
-=======
-  z-index: 1000;
->>>>>>> Lp complete
-=======
-  z-index: 1000;
->>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
 }
 .c-element--triangle {
   background: url(../images/elements/triangle.svg);
@@ -156,15 +110,7 @@
   height: 58px;
   display: block;
   position: absolute;
-<<<<<<< HEAD
-<<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
   right: -10px;
-=======
-  right: 0px;
->>>>>>> Lp complete
-=======
-  right: 0px;
->>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
   left: auto;
   top: 20px;
   background: url(../images/n-2.svg) no-repeat top left;
@@ -229,47 +175,3 @@
   margin: 0 35px;
   cursor: pointer;
 }
-<<<<<<< HEAD
-<<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
-.s-services__arrow {
-  padding: 0 30px;
-  height: 1.2em;
-  overflow: hidden;
-  font-size: 20px;
-  display: inline-block;
-  position: relative;
-  text-decoration: none!important;
-  color: white;
-  font-family: arial;
-}
-.s-services__arrow:hover span {
-  -webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);
-  transform: translateY(-100%);
-}
-.s-services__arrow span {
-  position: relative;
-  padding: 0 5px;
-  display: inline-block;
-  -webkit-transition: -webkit-transform 0.3s;
-  -moz-transition: -moz-transform 0.3s;
-  transition: transform 0.3s;
-}
-.s-services__arrow span:before {
-  position: absolute;
-  width: 100%;
-  color: #0878d5;
-  left: 0;
-  top: 100%;
-  content: attr(data-hover);
-  font-weight: 700;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-=======
->>>>>>> version 0.1
-=======
->>>>>>> Lp complete
-=======
->>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f

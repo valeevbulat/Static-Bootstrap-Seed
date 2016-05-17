@@ -12,21 +12,9 @@
 
   "contacts": {
     "tphone" : "Телефон",
-<<<<<<< HEAD
-<<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
     "vphone" : "+79874126844",
     "tmail" : "Почта",
     "vmail" : "arttasma@gmail.com"
-=======
-    "vphone" : "+7 863 348-61-23",
-    "tmail" : "Почта",
-    "vmail" : "hello@tasma.ru"
->>>>>>> Lp complete
-=======
-    "vphone" : "+7 863 348-61-23",
-    "tmail" : "Почта",
-    "vmail" : "hello@tasma.ru"
->>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
   },
 
   "services": {
@@ -55,17 +43,7 @@
     "play-1" : "Посмотреть",
     "play-2" : "Видеозапись",
     "footer-continue": "Продолжить",
-<<<<<<< HEAD
-<<<<<<< 1c5a18e0f1f90c94d4d8e08298782fd152913e90
     "menu-1": "<span data-hover=\"ЧАСТНАЯ СЪЕМКА\" >ЧАСТНАЯ СЪЕМКА</span>",
     "menu-2": "<span data-hover=\"КОРПОРАТИВНАЯ СЪЕМКА\" >КОРПОРАТИВНАЯ СЪЕМКА</span>"
-=======
-    "menu-1": "ЧАСТНАЯ СЪЕМКА",
-    "menu-2": "КОРПОРАТИВНАЯ СЪЕМКА"
->>>>>>> Lp complete
-=======
-    "menu-1": "ЧАСТНАЯ СЪЕМКА",
-    "menu-2": "КОРПОРАТИВНАЯ СЪЕМКА"
->>>>>>> 6beca7a83fbd5707375b18f0c6b87ddd6b63b59f
   }
 }
