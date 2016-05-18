@@ -274,7 +274,6 @@ body {
 }
 .s-contacts {
   padding: 30px 60px;
-  text-transform: uppercase;
 }
 .s-contacts__info {
   padding-top: 120px;
@@ -283,6 +282,7 @@ body {
   font-size: 16px;
   color: #fefefe;
   letter-spacing: 3px;
+  text-transform: uppercase;
 }
 .s-contacts__value {
   font-size: 26px;
