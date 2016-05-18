@@ -180,7 +180,12 @@
 .s-services__video {
   background: url(../images/primer.svg) no-repeat 410px 15px;
 }
+.s-services__video .o-inline-blocks {
+  display: block;
+}
 .s-services__video .o-inline-blocks__item {
+  display: inline-block;
+  vertical-align: middle;
   align-self: center;
   font-family: 'Open Sans';
   font-weight: 600;
