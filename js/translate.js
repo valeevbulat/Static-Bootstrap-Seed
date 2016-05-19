@@ -13,6 +13,10 @@
         $('body').i18n();
         $('#' + $.i18n.lng() + '_lang').addClass('s-nav-top__link--active');
         $('.s-services__video').css('background-image', 'url(./images/primer.svg)');
+        if($.cookie('lang') == 'en'){
+            changeLang('en');
+            $('.s-services__video').css('background-image', 'url(./images/primer2.svg)');
+        }
     });
 
     window.changeLang = function(lang) {
@@ -20,6 +24,7 @@
         $.i18n.setLng(lang);
         $('body').i18n();
         $('#' + $.i18n.lng() + '_lang').addClass('s-nav-top__link--active');
+        $.cookie('lang', lang, { expires: 7 });
 
         if ($('.s-services__video').css('background-image') == 'url(./images/primer.svg)')
             $('.s-services__video').css('background-image', 'url(./images/primer2.svg)');

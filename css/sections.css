@@ -234,3 +234,23 @@
 .labs-section svg {
   fill: #fff;
 }
+.s-footer {
+  padding: 20px 60px;
+}
+.s-footer__left,
+.s-footer__right {
+  font-size: 14px;
+  color: #efeff4;
+}
+.s-footer__left > a,
+.s-footer__right > a {
+  text-decoration: underline;
+  color: #efeff4;
+}
+.s-footer__left {
+  float: left;
+}
+.s-footer__right {
+  font-size: 12px;
+  float: right;
+}
