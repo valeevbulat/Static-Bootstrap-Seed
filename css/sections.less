@@ -7,7 +7,7 @@
   margin: 0 auto;
   position: relative;
   z-index: 2000;
-
+min-width: 1300px;
   &--overflow-y{
     overflow-y: hidden;
   }
@@ -109,7 +109,7 @@
     }
 
     .s-contacts{
-      padding: 30px 60px;
+      padding: 30px 60px 0px;
 
       &__info{
         padding-top: 120px;
@@ -127,6 +127,12 @@
         color: #fefefe;
         margin-top: 12px;
         margin-bottom: 62px;
+        display: block;
+        text-decoration: none;
+        &:hover{
+          text-decoration: none;
+          color: #fefefe;
+        }
       }
     }
     // First
@@ -138,6 +144,10 @@
       width: 100%;
       &__title{
         margin-bottom: 14px;
+      }
+
+      &--noheight{
+        height: auto;
       }
     }
 
@@ -302,6 +312,11 @@
 .s-footer{
   padding: 20px 60px;
 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-width: 1300px;
+
   &__left, &__right{
     font-size: 14px;
     color: #efeff4;
@@ -319,4 +334,9 @@
     font-size: 12px;
     float: right;
   }
+}
+
+#sprite{
+  visibility: hidden;
+  display: none;
 }

@@ -9,7 +9,7 @@
     <!-- BOOTSTRAP 3 -->
     <link href="css/main.css" rel="stylesheet">
 </head>
-<body class="s-body no-overflow" id="body">
+<body class="s-body s-body--noheight no-overflow" id="body">
 <!-- MAIN WRAPPER -->
 <div class="container-fluid s-main-wrapper">
     <nav class="s-nav-top o-inline-blocks">
@@ -37,26 +37,29 @@
         <div class="o-inline-blocks">
             <div class="o-inline-blocks__item s-contacts__info">
                 <div class="s-contacts__title" data-i18n="contacts.tphone"></div>
-                <div class="s-contacts__value" data-i18n="contacts.vphone"></div>
+                <a href="tel:+79874126844"class="s-contacts__value" data-i18n="contacts.vphone"></a>
                 <div class="s-contacts__title" data-i18n="contacts.tmail"></div>
-                <div class="s-contacts__value" data-i18n="contacts.vmail"></div>
+                <a href="mailto:arttasma@gmail.com" class="s-contacts__value" data-i18n="contacts.vmail"></a>
+                <div class="s-contacts__title" data-i18n="contacts.tinsta">Instagram</div>
+                <a href="https://www.instagram.com/tasma" target="_blank" class="s-contacts__value" data-i18n="contacts.vinsta">https://www.instagram.com/tasma</a>
             </div>
-            <div class="o-inline-blocks__item" style="margin-right: -264px;margin-top: -28px;">
+            <div class="o-inline-blocks__item" style="margin-right: -616px;margin-top: -28px;">
                 <a href="https://vimeo.com/tasmapro" target="_blank">
-                    <img src="./images/bg/mac.png" alt="" class="img-responsive">
+                    <img src="./images/bg/mac.png" alt="" class="">
                 </a>
             </div>
         </div>
     </div>
-</div>
-<div class="s-footer s-contacts">
-    <div class="s-footer__left">
-        © 2016 Медия студия «Тасма»
+    <div class="s-footer s-contacts">
+        <div class="s-footer__left">
+            © 2016 Медия студия «Тасма»
+        </div>
+        <div class="s-footer__right">
+            Cделано в <a href="https://vk.com/se_platform" target="_blank">First Software Engineering Platform</a>
+        </div>
     </div>
-    <div class="s-footer__right">
-        Cделано в <a href="https://vk.com/se_platform" target="_blank">First Software Engineering Platform</a>
-    </div>
 </div>
+
 
 
 <!-- jQuery -->

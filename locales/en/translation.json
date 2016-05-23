@@ -15,7 +15,9 @@
     "tphone" : "Phone",
     "vphone" : "+79874126844",
     "tmail" : "Email",
-    "vmail" : "arttasma@gmail.com"
+    "vmail" : "arttasma@gmail.com",
+    "tinsta" : "Instagram",
+    "vinsta" : "https://www.instagram.com/"
   },
 
   "services": {
@@ -44,7 +46,7 @@
     "play-1" : "Play",
     "play-2" : "Video",
     "footer-continue": "Next",
-    "menu-1": "ЧАСТНАЯ СЪЕМКА",
-    "menu-2": "КОРПОРАТИВНАЯ СЪЕМКА"
+    "menu-1": "PRIVATE",
+    "menu-2": "COMPANIES "
   }
 }

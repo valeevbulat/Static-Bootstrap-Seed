@@ -202,6 +202,7 @@ body {
   margin: 0 auto;
   position: relative;
   z-index: 2000;
+  min-width: 1300px;
 }
 .s-main-wrapper--overflow-y {
   overflow-y: hidden;
@@ -273,7 +274,7 @@ body {
   padding: 0 20px;
 }
 .s-contacts {
-  padding: 30px 60px;
+  padding: 30px 60px 0px;
 }
 .s-contacts__info {
   padding-top: 120px;
@@ -289,6 +290,12 @@ body {
   color: #fefefe;
   margin-top: 12px;
   margin-bottom: 62px;
+  display: block;
+  text-decoration: none;
+}
+.s-contacts__value:hover {
+  text-decoration: none;
+  color: #fefefe;
 }
 .s-body {
   background-image: url(../images/bg/bg.svg);
@@ -299,6 +306,9 @@ body {
 }
 .s-body__title {
   margin-bottom: 14px;
+}
+.s-body--noheight {
+  height: auto;
 }
 .s-logo {
   background-image: url(../images/logo/tasma.svg);
@@ -435,6 +445,10 @@ body {
 }
 .s-footer {
   padding: 20px 60px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-width: 1300px;
 }
 .s-footer__left,
 .s-footer__right {
@@ -452,4 +466,8 @@ body {
 .s-footer__right {
   font-size: 12px;
   float: right;
+}
+#sprite {
+  visibility: hidden;
+  display: none;
 }
