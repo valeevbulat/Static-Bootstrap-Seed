@@ -65,8 +65,10 @@ body {
   width: 100%;
   border-radius: 2px;
 }
-.no-overflow {
-  overflow-x: hidden;
+@media (min-width: 1400px) {
+  .no-overflow {
+    overflow-x: hidden;
+  }
 }
 .no-scroll {
   overflow: hidden;
