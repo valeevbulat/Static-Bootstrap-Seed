@@ -1,4 +1,9 @@
 {
+  "title": {
+    "about_us": "О нас",
+    "contacts": "Contacts",
+    "services": "Services"
+  },
   "navigation": {
     "brand" : "МЕДИА СТУДИЯ TASMA",
     "tasma" : "",
