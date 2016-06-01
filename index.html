@@ -14,42 +14,64 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href="css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
 </head>
-<body class="s-body no-overflow " id="body">
+<body class="s-body " id="body">
     <div style="display: none" data-i18n="title.about_us" id="title"></div>
     <!-- MAIN WRAPPER -->
 
     <div class="container-fluid s-main-wrapper ">
-        <nav class="s-nav-top o-inline-blocks">
-            <a href="index.html" class=" s-nav-top__brand o-inline-blocks__item s-nav-top__link" data-i18n="[html]navigation.brand">
-                МЕДИА СТУДИЯ <b>TASMA</b>
-            </a>
-            <div class="s-nav-top__menu o-inline-blocks__item o-inline-blocks">
-                <div class="o-inline-blocks__item">
-                    <a href="index.html" class="s-nav-top__link s-nav-top__link--active" data-i18n="navigation.menu-1"></a>
-                </div>
-                <div class="o-inline-blocks__item">
-                    <a href="services.html" class="s-nav-top__link" data-i18n="navigation.menu-2"></a>
-                </div>
-                <div class="o-inline-blocks__item">
-                    <a href="contacts.html" class="s-nav-top__link" data-i18n="navigation.menu-3"></a>
-                </div>
-                <div class="o-inline-blocks__item">
-                    <a href="#" id="ru_lang" class="s-nav-top__link" onclick="changeLang('ru')">Ru</a>
-                    <i class="s-nav-top__text">/</i>
-                    <a href="#" id="en_lang"  class="s-nav-top__link" onclick="changeLang('en')">Eng</a>
-                </div>
-            </div>
-        </nav>
-        <div class="s-index">
-            <div class="s-index__logo">
-                <div class="c-big-logo s-index__logo-ic"></div>
-            </div>
-            <div class="s-index__text" data-i18n="[html]index.text-1">
+        <div class="">
+            <ul id="scene" class="s-elements"
+                data-friction-x="0.1"
+                data-friction-y="0.1"
+                data-scalar-x="25"
+                data-scalar-y="15"
 
-            </div>
+            >
+
+                <li class="layer" data-depth="0.00" style="    z-index: 9999;">
+
+                    <nav class="s-nav-top o-inline-blocks">
+                        <a href="index.html" class=" s-nav-top__brand o-inline-blocks__item s-nav-top__link" data-i18n="[html]navigation.brand">
+                            МЕДИА СТУДИЯ <b>TASMA</b>
+                        </a>
+                        <div class="s-nav-top__menu o-inline-blocks__item o-inline-blocks">
+                            <div class="o-inline-blocks__item">
+                                <a href="index.html" class="s-nav-top__link s-nav-top__link--active" data-i18n="navigation.menu-1"></a>
+                            </div>
+                            <div class="o-inline-blocks__item">
+                                <a href="services.html" class="s-nav-top__link" data-i18n="navigation.menu-2"></a>
+                            </div>
+                            <div class="o-inline-blocks__item">
+                                <a href="contacts.html" class="s-nav-top__link" data-i18n="navigation.menu-3"></a>
+                            </div>
+                            <div class="o-inline-blocks__item">
+                                <a href="#" id="ru_lang" class="s-nav-top__link" onclick="changeLang('ru')">Ru</a>
+                                <i class="s-nav-top__text s-nav-top__slash">/</i>
+                                <a href="#" id="en_lang"  class="s-nav-top__link" onclick="changeLang('en')">Eng</a>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="s-index">
+                        <div class="s-index__logo">
+                            <div class="c-big-logo s-index__logo-ic"></div>
+                        </div>
+                        <div class="s-index__text" data-i18n="[html]index.text-1"></div>
+                    </div>
+                </li>
+
+                <!--<li class="layer" data-depth="0.60"><img src="images/elements/elems1.png" style=""></li>-->
+                <li class="layer" data-depth="0.40"><img src="images/elements/elems2.png" style="margin-top: 141px;margin-left: 160px;"></li>
+                <li class="layer" data-depth="0.20"><img src="images/elements/elems3.png" style="margin-top: 125px;margin-left: 460px;"></li>
+                <!--<li class="layer" data-depth="0.20"><img src="images/elements/elms2.png" style="margin-left: 800px;"></li>-->
+                <!--<li class="layer" data-depth="0.30"><img src="images/elements/elms3.png" style="margin-left: 20px;"></li>-->
+            </ul>
         </div>
+
+
     </div>
+
     <!--<div class="labs-section"></div>-->
 
     <!-- jQuery -->
@@ -59,7 +81,11 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/i18next.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/elemJs.js"></script>
     <script src="js/translate.js"></script>
+    <script src="js/paralax.js"></script>
+    <script src="js/jquery.parallax.min.js"></script>
+<script>
+    $('#scene').parallax();
+</script>
 </body>
 </html>

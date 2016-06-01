@@ -58,3 +58,5 @@ $('.s-services').on('click', '.s-services__nav.s-services__arrow', function(){
     $(this).addClass("s-nav-top__link--active").removeClass("s-services__arrow");
     $('#' + $(this).data('target')).addClass("s-services__page--active");
 });
+
+

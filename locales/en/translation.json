@@ -1,8 +1,8 @@
 {
   "title": {
-    "about_us": "О нас",
-    "contacts": "Contacts",
-    "services": "Services"
+    "about_us": "Медиа студия Tasma",
+    "contacts": "Contacts - Медиа студия Tasma",
+    "services": "Services - Медиа студия Tasma"
   },
   "navigation": {
     "brand" : "МЕДИА СТУДИЯ TASMA",
@@ -13,7 +13,7 @@
   },
 
   "index": {
-    "text-1" : "ОРГАНИЗАЦИЯ И ВЕДЕНИЕ СЪЕМОК <br> С МОМЕНТА РОЖДЕНИЯ СЦЕНАРИЯ ДО КОНЕЧНОГО РЕЗУЛЬТАТА"
+    "text-1" : "<b>ОРГАНИЗАЦИЯ И ВЕДЕНИЕ СЪЕМОК</b> <br> С МОМЕНТА РОЖДЕНИЯ СЦЕНАРИЯ ДО КОНЕЧНОГО РЕЗУЛЬТАТА"
   },
 
   "contacts": {
