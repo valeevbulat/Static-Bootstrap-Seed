@@ -59,6 +59,10 @@
 .s-elements {
   overflow: hidden;
   padding: 0;
+  min-height: 850px;
+}
+.s-elements .layer--static {
+  position: static!important;
 }
 .s-full-size {
   position: relative;
