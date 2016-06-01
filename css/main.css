@@ -87,20 +87,10 @@ body {
   height: 40px;
   background: url(../images/insta.svg) no-repeat;
 }
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .c-icon--instagram {
-    background: url(../images/insta@2x.svg) no-repeat;
-  }
-}
 .c-icon--vimeo {
   width: 40px;
   height: 40px;
   background: url(../images/vimeo.svg) no-repeat;
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .c-icon--vimeo {
-    background: url(../images/vimeo@2x.svg) no-repeat;
-  }
 }
 .c-list-services {
   padding-left: 107px;
