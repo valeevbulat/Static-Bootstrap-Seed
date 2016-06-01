@@ -81,33 +81,24 @@
   position: relative;
 }
 
-.c-element{
-  .size(30px, 30px);
-  background: #fff;
-
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  pointer-events: none;
-  will-change: transform;
-  margin: -15px;
-
-  &--triangle{
-    background: url(../images/elements/triangle.svg);
-    .size(17px, 21px);
+.c-icon{
+  &--instagram{
+    .size(40px, 40px);
+    background: url(../images/insta.svg) no-repeat;
+    @media
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+      background: url(../images/insta@2x.svg) no-repeat;
+    }
   }
-  &--triangle-2{
-    background: url(../images/elements/triangle_2.svg);
-    .size(20px, 20px);
-  }
-  &--rectangle{
-    display: block;
-    width: 38px;
-    height: 20px;
-    -webkit-transform: rotate(-57deg);
-    transform: rotate(-57deg);
-    background-color: #e2e2e2;
-    box-shadow: 16px 16px 25px 0 rgba(18, 25, 32, 0.7);
+  &--vimeo{
+    .size(40px, 40px);
+    background: url(../images/vimeo.svg) no-repeat;
+    @media
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+      background: url(../images/vimeo@2x.svg) no-repeat;
+    }
   }
 }
 

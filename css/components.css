@@ -60,33 +60,25 @@
   z-index: 3000;
   position: relative;
 }
-.c-element {
-  background: #fff;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  pointer-events: none;
-  will-change: transform;
-  margin: -15px;
+.c-icon--instagram {
+  width: 40px;
+  height: 40px;
+  background: url(../images/insta.svg) no-repeat;
 }
-.c-element--triangle {
-  background: url(../images/elements/triangle.svg);
-  width: 17px;
-  height: 21px;
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .c-icon--instagram {
+    background: url(../images/insta@2x.svg) no-repeat;
+  }
 }
-.c-element--triangle-2 {
-  background: url(../images/elements/triangle_2.svg);
-  width: 20px;
-  height: 20px;
+.c-icon--vimeo {
+  width: 40px;
+  height: 40px;
+  background: url(../images/vimeo.svg) no-repeat;
 }
-.c-element--rectangle {
-  display: block;
-  width: 38px;
-  height: 20px;
-  -webkit-transform: rotate(-57deg);
-  transform: rotate(-57deg);
-  background-color: #e2e2e2;
-  box-shadow: 16px 16px 25px 0 rgba(18, 25, 32, 0.7);
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .c-icon--vimeo {
+    background: url(../images/vimeo@2x.svg) no-repeat;
+  }
 }
 .c-list-services {
   padding-left: 107px;
