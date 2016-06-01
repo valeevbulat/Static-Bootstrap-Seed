@@ -285,22 +285,32 @@ body {
   margin-top: 45px;
 }
 .s-contacts {
-  padding: 30px 60px 0px;
+  padding: 30px 60px 200px;
 }
 .s-contacts__info {
   padding-top: 120px;
 }
 .s-contacts__title {
-  font-size: 16px;
-  color: #fefefe;
+  color: #efeff4;
+  font-size: 24px;
+  font-weight: 400;
   letter-spacing: 3px;
+  line-height: 33px;
   text-transform: uppercase;
 }
+.s-contacts__line {
+  width: 90px;
+  height: 10px;
+  margin: 20px 0 30px;
+  background-color: #efeff4;
+}
 .s-contacts__value {
-  font-size: 26px;
   color: #fefefe;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33px;
   margin-top: 12px;
-  margin-bottom: 62px;
+  margin-bottom: 30px;
   display: block;
   text-decoration: none;
 }
@@ -488,7 +498,6 @@ body {
   float: left;
 }
 .s-footer__right {
-  font-size: 12px;
   float: right;
 }
 #sprite {
