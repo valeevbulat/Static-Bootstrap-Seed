@@ -1,11 +1,11 @@
 {
   "title": {
-    "about_us": "Медиа студия Tasma",
-    "contacts": "Contacts - Медиа студия Tasma",
-    "services": "Services - Медиа студия Tasma"
+    "about_us": "MEDIA STUDIO TASMA",
+    "contacts": "Contacts - MEDIA STUDIO TASMA",
+    "services": "Services - MEDIA STUDIO TASMA"
   },
   "navigation": {
-    "brand" : "МЕДИА СТУДИЯ TASMA",
+    "brand" : "MEDIA STUDIO TASMA",
     "tasma" : "",
     "menu-1" : "About us",
     "menu-2"  : "Services",
@@ -13,13 +13,13 @@
   },
 
   "index": {
-    "text-1" : "<b>ОРГАНИЗАЦИЯ И ВЕДЕНИЕ СЪЕМОК</b> <br> С МОМЕНТА РОЖДЕНИЯ СЦЕНАРИЯ ДО КОНЕЧНОГО РЕЗУЛЬТАТА"
+    "text-1" : "We make films, <br> starting from the screenplay birth and up to final result"
   },
 
   "contacts": {
     "title": "Contact us",
     "tphone" : "Phone",
-    "vphone" : "+79874126844",
+    "vphone" : "+7 987 412–68–44",
     "tmail" : "Email",
     "vmail" : "arttasma@gmail.com",
     "tinsta" : "Instagram",
@@ -54,5 +54,10 @@
     "footer-continue": "Next",
     "menu-1": "PRIVATE",
     "menu-2": "COMPANIES "
+  },
+
+  "footer": {
+    "copyr":"© 2016 Media studio «Tasma»",
+    "copyr2":"Created by <a href=\"https://vk.com/se_platform\" target=\"_blank\">First Software Engineering Platform</a>"
   }
 }

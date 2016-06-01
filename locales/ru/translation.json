@@ -13,13 +13,13 @@
   },
 
   "index": {
-    "text-1" : "<b>ОРГАНИЗАЦИЯ И ВЕДЕНИЕ СЪЕМОК</b> <br> С МОМЕНТА РОЖДЕНИЯ СЦЕНАРИЯ ДО КОНЕЧНОГО РЕЗУЛЬТАТА"
+    "text-1" : "ОРГАНИЗАЦИЯ И ВЕДЕНИЕ СЪЕМОК <br> С МОМЕНТА РОЖДЕНИЯ СЦЕНАРИЯ ДО КОНЕЧНОГО РЕЗУЛЬТАТА"
   },
 
   "contacts": {
     "title": "Свяжитесь с нами",
     "tphone" : "Телефон",
-    "vphone" : "+79874126844",
+    "vphone" : "+7 987 412–68–44",
     "tmail" : "Почта",
     "vmail" : "arttasma@gmail.com"
   },
@@ -52,5 +52,10 @@
     "footer-continue": "Продолжить",
     "menu-1": "<span data-hover=\"ЧАСТНАЯ СЪЕМКА\" >ЧАСТНАЯ СЪЕМКА</span>",
     "menu-2": "<span data-hover=\"КОРПОРАТИВНАЯ СЪЕМКА\" >КОРПОРАТИВНАЯ СЪЕМКА</span>"
+  },
+
+  "footer": {
+    "copyr":"© 2016 Медия студия «Тасма»",
+    "copyr2":"Cделано в <a href=\"https://vk.com/se_platform\" target=\"_blank\">First Software Engineering Platform</a>"
   }
 }
