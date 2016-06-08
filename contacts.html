@@ -74,7 +74,10 @@
         </div>
     </div>
 </div>
-
+<div id="preloader" class="c-preloader">
+    <div id="preloader-num" class="c-preloader__percent">0%</div>
+    <div id="preloader-precent" class="c-preloader__percent-line"></div>
+</div>
 
 
 <!-- jQuery -->
@@ -85,5 +88,12 @@
 <script src="js/i18next.js"></script>
 <script src="js/main.js"></script>
 <script src="js/translate.js"></script>
+<script src="js/queryLoader2.js"></script>
+<script>
+    //Preloader
+    $(document).ready(function () {
+        $("body").queryLoader2();
+    });
+</script>
 </body>
 </html>

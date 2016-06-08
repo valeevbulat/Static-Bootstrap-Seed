@@ -197,33 +197,26 @@ min-width: 1300px;
         margin-bottom: 30px;
         display: block;
         text-decoration: none;
-        &:hover{
+        &:link, &:visited{
+          color: #efeff4;
+          text-transform: uppercase;
+        }
+
+        &--active, &:hover, &:focus{
+          color: #8f8e94!important;
           text-decoration: none;
-          color: #fefefe;
+          border: none;
+          outline: none;
         }
       }
     }
     // First
     .s-body{
-      background:url('../images/bg/bg.svg');
-      background-size: 3000px;
+      background: url(../images/bg/bg-sh.png), linear-gradient(-50deg, #333 0%, #5a5454 100%);
       width: 100%;
       background-attachment: fixed;
       min-width: 1300px;
       position: relative;
-
-      &:before{
-        content: '';
-        background: url(../images/bg/bg-sh.png);
-        background-attachment: fixed;
-        width: 100%;
-        height: 100%;
-        min-width: 1300px;
-        min-height: 720px;
-        top: 0;
-        left: 0;
-        position: absolute;
-      }
 
       &__title{
         margin-bottom: 14px;
